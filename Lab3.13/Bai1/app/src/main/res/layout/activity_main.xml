@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number"
+        android:inputType="number"
+        android:contentDescription="Input number"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:contentDescription="Check number"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:contentDescription="Result text"
+        android:padding="16dp"/>
+</LinearLayout>
